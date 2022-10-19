@@ -18,10 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Publish package to hex.pm
-        uses: wesleimp/action-publish-hex@v1
+        uses: elephantoss/action-publish-hex@v1
         env:
           HEX_API_KEY: ${{ secrets.HEX_API_KEY }}
 ```

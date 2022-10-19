@@ -1,5 +1,4 @@
-FROM elixir:1.11.3-alpine
-
+FROM elixir:1.14-alpine
 COPY . .
 
 COPY entrypoint.sh /entrypoint.sh
