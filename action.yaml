@@ -1,11 +1,11 @@
-name: 'Publish elixir packages to hex.pm'
-description: 'Publish elixir packages to hex.pm'
-author: 'wesleimp'
+name: "Elephant OSS - Publish elixir packages to hex.pm"
+description: "Publish elixir packages to hex.pm"
+author: "elephantoss"
 
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: "docker"
+  image: "Dockerfile"
 
 branding:
-  icon: 'package'
-  color: 'purple'
+  icon: "package"
+  color: "purple"
